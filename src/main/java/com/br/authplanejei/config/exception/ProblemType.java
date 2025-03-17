@@ -1,6 +1,6 @@
 package com.br.authplanejei.config.exception;
 
-public enum PoblemType
+public enum ProblemType
 {
 	MENSAGEM_INCOMPREENSIVEL("Mensagem incompreensível", "mensagem-incompreensivel"),
 	RECURSO_NAO_ENCONTRADO("Recurso nao Encontrado", "recurso-nao-encontrado"),
@@ -13,7 +13,7 @@ public enum PoblemType
 	private String title;
 	private String uri;
 
-	PoblemType(String title, String uri)
+	ProblemType(String title, String uri)
 	{
 		this.title = title;
 		this.uri = "https://localhost/"+ uri;
